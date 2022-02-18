@@ -11,3 +11,4 @@
 5. git merge branch_name - слияние веток
 
 6. git branch -d branch_name - удаление ветки
+![image](https://miro.medium.com/max/1148/1*Sg8xy936xO0nUdnDZkW3zw.png)
