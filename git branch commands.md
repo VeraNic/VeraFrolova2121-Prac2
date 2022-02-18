@@ -24,6 +24,8 @@
 
 9. **git log --merge** - создание журнала со списком конфликтов коммитов между ветками, для которых выполняется слияние
 
+10. **git reset --hard HEAD^** - откат слияния
+
 [Конфликты слияния](https://www.atlassian.com/ru/git/tutorials/using-branches/merge-conflicts)
 
 ![image](https://miro.medium.com/max/1148/1*Sg8xy936xO0nUdnDZkW3zw.png)
