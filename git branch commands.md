@@ -18,7 +18,12 @@
 
 [GIT MERGE](https://www.atlassian.com/ru/git/tutorials/using-branches/git-merge)
 
-
 7. **git merge *branch_name*** - слияние просматриваемой ветки с указанной
+
+8. **git merge --abort** - прерывание слияния, возврат ветки к состоянию, в котором она находилась до начала слияния
+
+9. **git log --merge** - создание журнала со списком конфликтов коммитов между ветками, для которых выполняется слияние
+
+[Конфликты слияния](https://www.atlassian.com/ru/git/tutorials/using-branches/merge-conflicts)
 
 ![image](https://miro.medium.com/max/1148/1*Sg8xy936xO0nUdnDZkW3zw.png)
