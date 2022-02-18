@@ -1,14 +1,24 @@
 # GIT BRANCH COMMANDS
 
+[GIT BRANCH](https://www.atlassian.com/ru/git/tutorials/using-branches)
+
 1. **git branch *branch_name*** - создание новой ветки
 
 2. **git branch** - вывод списка веток
 
-3. **git checkout -b *branch_name*** - создание ветки, переход в неё
+3. **git branch -d *branch_name*** - удаление ветки
 
-4. **git checkout *branch_name*** - просмотр ветки
+4. **git branch -D *branch_name*** - принудительное удаление указанной ветки, даже если в ней есть неслитые изменения: навсегда удаляются все коммиты, связанные с определенным направлением разработки
 
-5. **git merge *branch_name*** - слияние просматриваемой ветки с указанной
+[GIT CHECKOUT](https://www.atlassian.com/ru/git/tutorials/using-branches/git-checkout)
 
-6. **git branch -d *branch_name*** - удаление ветки
+5. **git checkout -b *branch_name*** - создание ветки, переход в неё
+
+6. **git checkout *branch_name*** - просмотр ветки
+
+[GIT MERGE](https://www.atlassian.com/ru/git/tutorials/using-branches/git-merge)
+
+
+7. **git merge *branch_name*** - слияние просматриваемой ветки с указанной
+
 ![image](https://miro.medium.com/max/1148/1*Sg8xy936xO0nUdnDZkW3zw.png)
